@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+i{
+  cursor: pointer;
+}
+
+.jkbAqT {
+  /* display: grid; */
+  display: flex;
+  /* justify-content: flex-end; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 1.6rem;
+  width: 100%;
+  margin: 0px auto;
+  padding: 1rem 2rem;
+  /* background: linear-gradient(113.45deg, rgba(0, 0, 0, 0.4) -12.19%, rgba(90, 134, 255, 0.4) 105.32%); */
+  background: linear-gradient(129deg, rgb(0 0 0 / 7%) -12.19%, rgba(149, 174, 244, 0.48) 105.32%);
+  backdrop-filter: blur(4rem);
+  border-radius: 1.5rem;
+  border: 0.1rem solid rgb(44, 39, 39);
+}
+
+/* .blurred {
+  display: flex;
+  background: linear-gradient(129deg, rgba(255, 237, 237, 0.07) -12.19%, rgba(149, 174, 244, 0.48) 105.32%);
+  backdrop-filter: blur(4rem);
+  text-emphasis-color: white;
+  border: 0.1rem solid rgb(44, 39, 39);
+} */
+
+
+/* .blurred {
+  background: linear-gradient(129deg, rgba(255, 237, 237, 0.07) -12.19%, rgba(149, 174, 244, 0.48) 105.32%);
+  backdrop-filter: blur(4rem);
+  border: none;
+  color: white;
+} */
+
+/* .blurred {
+  background-color: rgba(208, 40, 40, 0.5);
+  backdrop-filter: blur(4rem);
+  border: none;
+  color: rgb(22, 21, 21);
+} */
+
+/* 
+.linkcolor{
+  color: rgb(240, 54, 246);
+} */
+
+/* @media screen and (min-width: 478px)
+<style> */
+
+/* .jkbAqT {
+    grid-column: span 8 / auto;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 2.4rem;
+    margin: 0px auto;
+    padding: 4rem;
+} */
+
+/* {document.body.style.backgroundColor = 'black'} */
+
+body{
+  background: url(../background.png)  center center/ 56% no-repeat;
+  /* background:  var(--color-core-bg); */
+  background-attachment: fixed;
+  background-color: rgb(24, 8, 8);
+} 
+
+
+/* style={{ display: 'flex', justifyContent: 'flex-end', position: 'absolute', right: '0'}} */
